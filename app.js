@@ -11,7 +11,7 @@ const mongoOptions = {
     useUnifiedTopology: true
 }
 
-mongoose.connect('mongodb+srv://arahuln27:arahuln27@cluster0.9bajefq.mongodb.net/?retryWrites=true&w=majority', mongoOptions)
+mongoose.connect('mongodb+srv://sreeman:saiveer2k4@cluster0.kgdyyp6.mongodb.net/?retryWrites=true&w=majority', mongoOptions)
 .then(() => {
     app.listen(3000, () => {
         console.log("APP IS LISTENING ON PORT 3000!")
